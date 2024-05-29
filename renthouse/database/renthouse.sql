@@ -77,8 +77,6 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`admin_id`, `email`, `password`) VALUES
-(1, 'nikeshtiwari3230@gmail.com', '12345');
 
 -- --------------------------------------------------------
 
