@@ -99,9 +99,6 @@ CREATE TABLE `owner` (
 -- Dumping data for table `owner`
 --
 
-INSERT INTO `owner` (`owner_id`, `full_name`, `email`, `password`, `phone_no`, `address`, `id_type`, `id_photo`) VALUES
-(1, 'Nikesh Tiwari', 'nikeshtiwari3230@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', 987654321, 'Kirtipur-3', 'Citizenship', 'owner-photo/nikesh.png');
-
 -- --------------------------------------------------------
 
 --
@@ -166,13 +163,10 @@ CREATE TABLE `tenant` (
 -- Dumping data for table `tenant`
 --
 
-INSERT INTO `tenant` (`tenant_id`, `full_name`, `email`, `password`, `phone_no`, `address`, `id_type`, `id_photo`) VALUES
-(17, 'Nikesh Tiwari', 'nikeshtiwari3230@gmail.com', '827ccb0eea8a706c4c34a16891f84e7b', 987654321, 'Kirtipur-3', 'Citizenship', 'tenant-photo/nikesh.png');
 
 --
 -- Indexes for dumped tables
 --
-booking(property_id,tenant_id)
 
 CREATE TABLE `booking`(
   booking_id INT AUTO_INCREMENT PRIMARY KEY,
